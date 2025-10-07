@@ -20,3 +20,5 @@ typer-slim==0.19.2
 isodate==0.7.2
 whitenoise==6.11.0
 typing-extensions==4.14.1
+
+gunicorn
