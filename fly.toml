@@ -1,0 +1,14 @@
+app = "searx-hanway"
+primary_region = "sin"
+
+# Jangan taruh secret di sini. Nanti set di "Secrets".
+# [env]
+# SEARXNG_BASE_URL = "https://searx.hanway.id"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_start_machines = true
+  auto_stop_machines = true
+  min_machines_running = 1
+  processes = ["app"]
